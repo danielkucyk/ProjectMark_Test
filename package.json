@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prestart": "npm run build",
+    "prestart": "npm install && npm run build",
     "build": "npx vite build",
     "dev": "vite",
     "start": "node index.js",
