@@ -34,7 +34,7 @@ onMounted(() => {
 <template>
     <div class="relative rounded-[0.6rem] cursor-pointer "
         :class="{
-            'border border-slate-200 hover:bg-slate-200': !isOptionActive(option),
+            'border border-slate-200 transition duration-300 hover:bg-slate-200/80': !isOptionActive(option),
             'border-2 border-blue-600': isOptionActive(option)
         }"
         v-for="(option) in props.options" :key="option.value" @click="onSelectOption(option)">
@@ -43,7 +43,7 @@ onMounted(() => {
             <label class="flex items-center gap-2" :for="option.value">
                 <span class="w-4 h-4 inline-block mr-1 rounded" 
                 :class="{
-                    'border-2 border-slate-200': !isOptionActive(option),
+                    'border-2 border-slate-200 bg-white': !isOptionActive(option),
                     'bg-blue-600': isOptionActive(option)
                 }">
                     <div v-if="isOptionActive(option)" class="flex justify-center items-center w-4 h-4">

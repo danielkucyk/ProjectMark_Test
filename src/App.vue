@@ -71,7 +71,7 @@ const options = ref<Option[]>([
         </div>
       </div>
     </div>
-    <button class="rounded-full bg-blue-600 hover:bg-blue-700 duration-700 text-sm capitalize text-white font-bold h-10 w-[72px]">Next</button>
+    <button class="rounded-full transition bg-blue-600 hover:bg-blue-700 duration-300 text-sm capitalize text-white font-bold h-10 w-[72px]">Next</button>
   </div>
   <div class="flex items-center justify-center bg-slate-200 content-evenly page-body w-full" name="main">
     <div class="flex flex-col gap-10 bg-white p-8 rounded-2xl h-[99%] w-[99%]" name="body_container">
