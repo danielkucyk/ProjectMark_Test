@@ -3,12 +3,12 @@ Challenge made for ProjectMark. The landpage is to work as a filter to adapt the
 
 ## 📑 Summary
 
--   [Dependencies](https://github.com/danielkucyk/ProjectMark_Test/edit/main/README.md#%EF%B8%8F-dependencies)
--   [Get started](https://github.com/danielkucyk/ProjectMark_Test/edit/main/README.md#-get-started)
-    -   [Installation](https://github.com/danielkucyk/ProjectMark_Test/edit/main/README.md#installation)
-    -   [Running the application](https://github.com/danielkucyk/ProjectMark_Test/edit/main/README.md#running-the-application)
--   [Vercel](https://github.com/danielkucyk/ProjectMark_Test/edit/main/README.md#-vercel)
--   [Images](https://github.com/danielkucyk/ProjectMark_Test/edit/main/README.md#-images)
+-   [Dependencies](https://github.com/danielkucyk/ProjectMark_Test/README.md#%EF%B8%8F-dependencies)
+-   [Get started](https://github.com/danielkucyk/ProjectMark_Test/README.md#-get-started)
+    -   [Installation](https://github.com/danielkucyk/ProjectMark_Test/README.md#installation)
+    -   [Running the application](https://github.com/danielkucyk/ProjectMark_Test/README.md#running-the-application)
+-   [Vercel](https://github.com/danielkucyk/ProjectMark_Test/README.md#-vercel)
+-   [Images](https://github.com/danielkucyk/ProjectMark_Test/README.md#-images)
 
 ## 🛠️ Dependencies
 
