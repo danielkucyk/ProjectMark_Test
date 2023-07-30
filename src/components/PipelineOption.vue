@@ -32,7 +32,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="relative rounded-[0.6rem] cursor-pointer "
+    <div class="relative rounded-[0.6rem] cursor-pointer"
         :class="{
             'border border-slate-200 transition duration-300 hover:bg-slate-200/80': !isOptionActive(option),
             'border-2 border-blue-600': isOptionActive(option)

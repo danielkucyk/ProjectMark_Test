@@ -45,7 +45,7 @@ const options = ref<Option[]>([
 </script>
 
 <template>
-  <div class="flex h-20 px-8 py-12 bg-slate-200 justify-between items-center w-full" name="header">
+  <div class="flex h-20 px-8 py-12 bg-slate-200 justify-between items-center w-full overflow-hidden" name="header">
     <div class="flex items-center justify-start h-16 w-16 ">
       <div class="h-7 w-7 rotate-45  bg-blue-950/90 rounded">
         <div class="flex h-7 w-7 -rotate-45">
@@ -73,16 +73,16 @@ const options = ref<Option[]>([
     </div>
     <button class="rounded-full transition bg-blue-600 hover:bg-blue-700 duration-300 text-sm capitalize text-white font-bold h-10 w-[72px]">Next</button>
   </div>
-  <div class="flex items-center justify-center bg-slate-200 content-evenly page-body w-full" name="main">
+  <div class="flex items-center justify-center bg-slate-200 content-evenly page-body w-full overflow-hidden" name="main">
     <div class="flex flex-col gap-10 bg-white p-8 rounded-2xl h-[99%] w-[99%]" name="body_container">
-      <div class="flex items-center justify-center normal-case text-[28px] text-gray-800/90 font-bold">
+      <div class="flex items-center justify-center normal-case text-[28px] text-gray-800/90 h-16 font-bold overflow-hidden">
         <span>Please select the type of sales pipeline that best fit your company</span>
       </div> 
-      <div class="flex items-center justify-center content-evenly gap-2">
-        <PipelineOption @on-selected="onSelectedOption"  :options="options"/>
+      <div class="flex items-center justify-center content-evenly gap-2 h-36 overflow-x-auto overflow-y-hidden">
+        <PipelineOption class="overflow-x-hidden" @on-selected="onSelectedOption"  :options="options"/>
       </div>
-      <div class="flex items-center justify-center my-4 gap-4 h-[99%]">
-        <div class="h-full" v-for="(box,index) in pipelineBoxList" :key="index">
+      <div class="flex items-center justify-center my-2 gap-4 h-[99%] overflow-auto">
+        <div class="max-h-full h-[100%]" v-for="(box,index) in pipelineBoxList" :key="index">
           <PipelineBox :box="box"/>
         </div>
       </div>
